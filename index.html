@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> JellyBOT </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">JellyBOT</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Documentation</a></li>
+        <li><a href="#projects">Progress</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+</nav>
+  <nav id="hamburger-nav">
+    <div class="logo">JellyBOT</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#About" onclick="toggleMenu()" >About</a></li>
+        <li><a href="#Documentation" onclick="toggleMenu()">Documentation</a></li>
+        <li><a href="#Progress" onclick="toggleMenu()">Progress</a></li>
+        <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__text">
+      <header class="title1"> Team Romeo Presents</p>
+      <img src="./assets/JellyBOT_logo.png" alt="JellyBOT logo"/>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get to Know Us!</p>
+    <h1 class="title">About The Team</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <div class="profile">
+                    <img src="./assets/Dani.png" alt="Profile picture" class="about-pic"/>
+                    <p class="description">Dani Maposa: Team Lead</p>
+                    <p class="description">Camera and Sensor Lead</p>
+                </div>
+                <div class="profile">
+                <img src="./assets/Jaden'sHeadshot.jpeg" alt="Profile picture" class="about-pic"/>
+                <p class="description"> Jaden Hall: Remote Control Lead</p>
+            </div>
+            <div class="profile">
+                <img src="./assets/Jennefer.jpeg" alt="Profile picture" class="about-pic"/>
+                <p class="description">Jennefer Jones: Propulsion Lead</p>
+            </div>
+            <div class="profile">
+                <img src="./assets/roland1.JPG" alt="Profile picture" class="about-pic"/>
+                <p class="description">Roland Robinson: Collection (Soft Actuator) Lead</p>
+            </div>
+            <div class="profile">
+                <img src="./assets/tyler.jpeg" alt="Profile picture" class="about-pic"/>
+                <p class="description">Tyler Lane: Power Lead</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="documentation">
+        <h1 class="title">Our Documentation</h1>
+        <div class="documentation-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <a href="./assets/Jelly-Bot_Problem Statement_Final.pdf" target="_blank">View Problem Statement</a>
+                    </div>
+                    <h2 class="documentation project-title">Problem Statement</h2>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <a href="./assets/JellyBOT_Design_Requirements_Specifications.pdf" target="_blank">View Constraints and Requirements</a>
+                    </div>
+                    <h2 class="documentation project-title">Design Requirements Specifications</h2>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <a href="./assets/JellyBOT_Approach_Final.pdf" target="_blank">View Approach Document</a>
+                    </div>
+                    <h2 class="documentation project-title">Approach Document</h2>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <a href="./assets/JellyBOT_Executive Summary_Draft (1).pdf" target="_blank">View Executive Summary</a>
+                    </div>
+                    <h2 class="documentation project-title">Executive Summary</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Level2Diagram">
+        <h1 class="title">Level 2 Diagram</h1>
+        <img src="./assets/level2_diagram.jpg" alt="Level 2 Diagram"/>
+    </section>
+    
+    <section id="progress">
+        <h1 class="title">Here's Our Progress</h1>
+        <div class="documentation">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <video src="./assets/camerasystem.MOV" alt="Camera System" class="progress-mov" controls></video>
+                    </div>
+                    <h2 class="documentation project-title">Camera System</h2>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <video src="./assets/water sensor.MOV" alt="Water Sensor System" class="progress-mov" controls></video>
+                    </div>
+                    <h2 class="documentation project-title">Water Sensor System</h2>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <video src="./assets/softactuator.mov" alt="Soft Actuator" class="progress-mov" controls></video>
+                    </div>
+                    <h2 class="documentation project-title">Soft Actuator</h2>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <video src="./assets/remotecontrol.MP4" alt="Remote Control System" class="progress-mov" controls></video>
+                    </div>
+                    <h2 class="documentation project-title">Remote Control System</h2>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <video src="./assets/power1.MOV" alt="Power System" class="progress-mov" controls></video>
+                    </div>
+                    <h2 class="documentation project-title">Power System 1</h2>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <video src="./assets/power2.MOV" alt="Power System" class="progress-mov" controls></video>
+                </div>
+                <h2 class="documentation project-title">Power System 2</h2>
+        </div>
+    </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch with the Team!</p>
+        <h1 class="title">Contact Us</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./assets/email.png"alt="Email icon"class="icon contact-icon email-icon"/>
+            <p><a href="mailto:jmh1543@msstate.edu">jmh1543@msstate.edu</a></p>
+          </div>
+          
+          <div class="contact-info-container">
+          <img src="./assets/email.png"alt="Email icon"class="icon contact-icon email-icon"/>
+          <p><a href="mailto:bm2330@msstate.edu">bm2330@msstate.edu</a></p>
+        </div>
+
+        <div class="contact-info-container">
+            <img src="./assets/email.png"alt="Email icon"class="icon contact-icon email-icon"/>
+            <p><a href="mailto:jtl418@msstate.edu">jtl418@msstate.edu</a></p>
+          </div>
+
+          <div class="contact-info-container">
+            <img src="./assets/email.png"alt="Email icon"class="icon contact-icon email-icon"/>
+            <p><a href="mailto:rfr63@msstate.edu">rfr63@msstate.edu</a></p>
+          </div>
+
+          <div class="contact-info-container">
+            <img src="./assets/email.png"alt="Email icon"class="icon contact-icon email-icon"/>
+            <p><a href="mailto:jpj183@msstate.edu">jpj183@msstate.edu</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Documentation</a></li>
+                <li><a href="#projects">Progress</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 JellyBOT. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+    </html>
