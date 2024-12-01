@@ -11,7 +11,7 @@ body {
     font-family: "Edu SA Beginner", sans-serif; /* Corrected font-family */
     background-color: #c047ec; /* Light purple */
     background-image: url('./assets/background3.jpg');
-    background-size: cover; /* Cover the entire background */
+    background-size:contain; /* Cover the entire background */
 }
 
 html {
